@@ -1,0 +1,5 @@
+$ ./a.out fileT1A.txt fileT1B.txt
+2c2
+< Testfile 1 to be precise.
+---
+> Testfile 2 to be precise.

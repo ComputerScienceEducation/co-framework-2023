@@ -1,0 +1,2 @@
+$ ./a.out fileT6A.txt fileT6B.txt -B
+

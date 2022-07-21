@@ -1,0 +1,3 @@
+People who are more than casually interested in computers should have at 
+least some idea of what the underlying hardware is like. 
+Otherwise the programs they write will be pretty weird.

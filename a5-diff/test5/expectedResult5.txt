@@ -1,0 +1,2 @@
+$ ./a.out fileT5A.txt fileT5B.txt -i
+
