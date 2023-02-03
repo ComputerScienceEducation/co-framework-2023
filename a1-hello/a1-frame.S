@@ -12,6 +12,7 @@
     .global _main
     _main: jmp my_main
     printf: jmp _printf
+    exit: jmp _exit
 #endif
 
 .text

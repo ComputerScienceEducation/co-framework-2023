@@ -17,6 +17,7 @@
     calloc: jmp _calloc
     realloc: jmp _realloc
     free: jmp _free
+    exit: jmp _exit
 #endif
 
 .text

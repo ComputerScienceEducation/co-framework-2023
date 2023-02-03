@@ -19,6 +19,7 @@
     strncmp: jmp _strncmp 
     strncpy: jmp _strncpy
     strnlen: jmp _strnlen
+    exit: jmp _exit
 #endif
 
 

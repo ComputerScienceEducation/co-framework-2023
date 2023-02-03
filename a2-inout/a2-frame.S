@@ -13,6 +13,7 @@
     _main: jmp my_main
     printf: jmp _printf
     scanf: jmp _scanf
+    exit: jmp _exit
 #endif
 
 .text
