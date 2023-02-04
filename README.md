@@ -19,6 +19,14 @@ You are required to use the framework file called `aX-frame.S` for all assignmen
 
 In order for the lab framework to work properly, all assembly files need to end in `.S` (note the capital S).
 
+## Assignment 0 - Sieve of Eratosthenes Example Program
+
+You can use this example assignment to familiarize yourself with x86\_64 Assembly and to test your setup.  
+To compile, `cd` into the Assignment 0 directory (`a0-sieve` by default).  
+`gcc -o sieve sieve.S -g` compiles the program.  
+`./sieve` will run the compiled program.  
+See the lab guide for more details.
+
 ## Assignment 1 - Hello World
 
 For the first assignment, your task is to write a hello world program.  
