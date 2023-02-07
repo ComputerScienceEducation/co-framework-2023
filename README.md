@@ -7,7 +7,7 @@ This is the framework for the mandatory assignments of the Computer Organization
 We use automated testing on CodeGrade to check the validity of your program.  
 In case of any unclarities, the expected results of the CodeGrade AutoTests shall be the binding specification for your program. You are hereby explicitly made aware of the fact that these AutoTests are subject to change until the respective assignment's deadline, and that it is your responsibility to ensure that your program passes the tests.
 
-## Mac Setup (Apple Silicon only)
+## Mac Setup
 
 You do not need to build with gcc (i.e., the instructions regarding how to compile and run your program in this README do not apply). Please see Canvas for the details of how to setup the Xcode project provided with this framework.
 
@@ -137,7 +137,7 @@ See the lab guide for detailed instructions.
 
 ## Automated testing, `MACOS` flag, and more  -- Framework Explanation
 
-The automated tests on CodeGrade and the special setup required to emulate x86_64 on Apple Silicon are the the reason you can find a snippet like the one below in all of the assignment frame files:
+The automated tests on CodeGrade and the special setup required to compile x86_64 on macOS are the the reason you can find a snippet like the one below in all of the assignment frame files:
 
 ```
 .ifndef CODEGRADE            # if the symbol CODEGRADE is not defined
@@ -165,7 +165,7 @@ The option `-Wa,--defsym,CODEGRADE=1` tells the assembler to define a symbol `CO
 `.equ CODEGRADE, 1`  
 above the `.ifndef CODEGRADE` in your source file.  
 
-The reason the assembly files all end in a capital `.S` is that, by default, `gcc` only invokes the C preprocessor (see also `man cpp`) on assembly files with an upper case file ending. The C preprocessor is needed for the `MACOS` flag.
+The reason the assembly files all end in a capital `.S` is that, by default, `gcc` only invokes the C preprocessor (see also `man cpp`) on assembly files with an upper case file ending. The C preprocessor is needed for the `MACOS` flag; you don't need to concern yourself with it as the Xcode project already adds this flag for you.
 
 The files `test_cc.c` provided for (almost) all assignments are simplified versions of the files we use for testing on CodeGrade. If you want to play around with them and explore how these things work, just compile `test_cc.c` and your assignment source file together and try running them.
 
