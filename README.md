@@ -85,7 +85,7 @@ Filename Requirements Part 2:
 1. for the recursive solution: \<your filename\>_repl.s
 
 You will have to write a (global) subtroutine `fibonacci` with the following function signature:  
-`void* fibonacci(int n, int curr_max, void *addr);`
+`uint64_t *fibonacci(int n, int curr_max, uint64_t *addr);`
 
 Hint: the automated tests will test the re-usability of this subroutine by calling it with different values for `addr`.
 
