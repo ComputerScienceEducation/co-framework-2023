@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5302233F29799FCF001A8739"
-               BuildableName = "assignment-4-plus"
-               BlueprintName = "assignment-4-plus"
+               BlueprintIdentifier = "53AC6037299A9C9C0021771A"
+               BuildableName = "assignment-4-plus-repl"
+               BlueprintName = "assignment-4-plus-repl"
                ReferencedContainer = "container:co-framework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5302233F29799FCF001A8739"
-            BuildableName = "assignment-4-plus"
-            BlueprintName = "assignment-4-plus"
+            BlueprintIdentifier = "53AC6037299A9C9C0021771A"
+            BuildableName = "assignment-4-plus-repl"
+            BlueprintName = "assignment-4-plus-repl"
             ReferencedContainer = "container:co-framework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,9 +62,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5302233F29799FCF001A8739"
-            BuildableName = "assignment-4-plus"
-            BlueprintName = "assignment-4-plus"
+            BlueprintIdentifier = "53AC6037299A9C9C0021771A"
+            BuildableName = "assignment-4-plus-repl"
+            BlueprintName = "assignment-4-plus-repl"
             ReferencedContainer = "container:co-framework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
