@@ -53,7 +53,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "&quot;$(PROJECT_DIR)/a5-diff/test5/fileT5A.txt&quot; &quot;$(PROJECT_DIR)/a5-diff/test5/fileT5B.txt&quot;"
+            argument = "-i &quot;$(PROJECT_DIR)/a5-diff/test5/fileT5A.txt&quot; &quot;$(PROJECT_DIR)/a5-diff/test5/fileT5B.txt&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
