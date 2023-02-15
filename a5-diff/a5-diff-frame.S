@@ -11,7 +11,7 @@
     fprintf: jmp _fprintf
     fscanf: jmp _fscanf
     printf: jmp _printf
-    strcasecmp: jmp _strncasecmp
+    strcasecmp: jmp _strcasecmp
     strcmp: jmp _strcmp
     strcpy: jmp _strcpy
     strlen: jmp _strlen
@@ -31,6 +31,7 @@ changestring:
 		    .ascii "---\n"
 		    .asciz "> %s\n"
 
+.global diff
 
 # ************************************************************************
 # * Subroutine: diff
