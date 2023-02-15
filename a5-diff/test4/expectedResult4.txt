@@ -1,4 +1,5 @@
 $ ./a.out fileT4A.txt fileT4B.txt
+1c1
 < CO is the best course in the world.
 ---
 > co is the best course in the world.
