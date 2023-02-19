@@ -29,6 +29,9 @@ formatstr:  .asciz "%d\n"       # format string for number printing
 my_main:
 	pushq   %rbp                # store the caller's base pointer
 	movq    %rsp, %rbp          # initialize the base pointer
+
+	subq	$16, %rsp           # align stack to 16 bytes
+	movq 	$2, -8(%rbp)        # initialize 'number' to 2 on stack   
 	
 # Initialize the number table:
 	movq    $0, %rbx            # initialize 'i' to 0.
@@ -40,7 +43,6 @@ loop1:
 	jl      loop1               # go to start of loop1               
 
 # The sieve algorithm:
-	pushq   $2                  # initialize 'number' to 2 on stack       
 loop2:
 	movq    -8(%rbp), %rbx      # load 'number' into a register
 	leaq    NUMBERS(%rip), %rax # load address of NUMBERS table into rax
