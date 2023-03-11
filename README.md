@@ -121,9 +121,9 @@ To compile, `cd` into the Assignment 5A - Diff directory (`a5-diff` by default).
 ## Assignment 5B - Hash (excludes 5A, not for Mac)
 
 Unfortunately, this assignment only works on x86_64 machines. If you are using a Mac, please do Assignment 5A - Diff instead.  
-You can use the `my_sha1_chunk.S` file to get started.  
-To compile, `cd` into the Assignment 5A - Diff directory (`a5-diff` by default).  
-`gcc -o test-a5-hash my_sha1_chunk.S ./sha1_test64.so -no-pie` compiles the program.  
+You can use the `my-sha1-chunk.S` file to get started.  
+To compile, `cd` into the Assignment 5B - Hash directory (`a5-hash` by default).  
+`gcc -o test-a5-hash my-sha1-chunk.S ./sha1_test64.so -no-pie` compiles the program.  
 `./test-a5-hash` will run the compiled program.  
 
 ## Assignment 6 - Printf
